@@ -643,7 +643,7 @@ function Build_Ciphers() {
 			case "Chaldean": allCiphers[allCiphers.length] = new cipher(key, "Chald", 166, 166, 99); break;
 			case "Keypad": allCiphers[allCiphers.length] = new cipher(key, "Keypad", 255, 126, 255); break;
 			case "Fibonacci": allCiphers[allCiphers.length] = new cipher(key, "Fibonacci", 233, 202, 148); break;
-			case "Alphanumeric Qabbala": allCiphers[allCiphers.length] = new cipher(key, "AQ", 191, 195, 127); break;
+			case "Alphanumeric Qabbala": allCiphers[allCiphers.length] = new cipher(key, "AQ", 190, 190, 126); break;
 
 			case "Hebrew Reduction": allCiphers[allCiphers.length] = new cipher(key, "Hebrew G", 255, 189, 2, "FullReduction"); break;
 			case "Hebrew Ordinal": allCiphers[allCiphers.length] = new cipher(key, "Hebrew G", 255, 209, 36); break;
