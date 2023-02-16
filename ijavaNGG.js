@@ -759,7 +759,7 @@ function Set_Breakdown() {
 }
 
 function Open_Shortcuts() {
-	window.open("http://www.gematrinator.com/nextgen/Shortcuts.png", 'Keyboard Shortcuts')
+	window.open("Shortcuts.png", 'Keyboard Shortcuts')
 }
 function Open_Ciphers(impOpt = cOption, impBool = false) {
 	var mSpot = document.getElementById("MenuSpot")
