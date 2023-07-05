@@ -402,9 +402,6 @@ function ToggleCipher(impVal) {
 		case "s;lch":
 			cName = "LCH Kabbalah";
 			break;
-		case "s;aq":
-			cName = "Alphanumeric Qabbala";
-			break;
 		case "s;esu":
 			cName = "English Sumerian";
 			break;
@@ -434,6 +431,15 @@ function ToggleCipher(impVal) {
 			break;
 		case "s;cha":
 			cName = "Chaldean";
+			break;
+		case "s;key":
+			cName = "Keypad";
+			break;
+		case "s;fib":
+			cName = "Fibonacci";
+			break;
+		case "s;aq":
+			cName = "Anglossic Qabbala";
 			break;
 		case "s;all":
 			Add_AllCiphers();
